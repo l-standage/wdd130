@@ -1,0 +1,11 @@
+* {
+   margin: 0;
+   padding: 0;
+  
+}
+.images {
+  height: auto;
+  width: 400px;
+  clip-path: circle();
+
+}

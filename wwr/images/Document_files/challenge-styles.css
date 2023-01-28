@@ -1,0 +1,26 @@
+main-p {
+    font-size: large;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+    color: black;
+}
+img {
+    width: 100px;
+}
+body {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h2 {
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif
+body {
+    background-color: pink;
+}

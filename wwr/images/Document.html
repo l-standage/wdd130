@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://127.0.0.1:5500/wwr/w04-challenge-makeweb-page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./Document_files/challenge-styles.css"></head>
+<body>
+    <header>
+        <nav>
+        <h1>Education</h1>
+        <h2>Education is the difference between wishing you could help others &amp;<br> being able to help them<br><br> ---President Nelson</h2>
+     <br>
+     <p>1. Faith in the Lord Jesus Christ</p>
+     <p>2. Repentance</p>
+     <p>3. Baptism by immersion for the remission of sins</p>
+     <p>4. Laying on of hands for the gifts of the Holy Ghost</p>
+     </nav>
+    </header>
+     <div>
+     <img src="./Document_files/russell_nelson.jpeg">
+     </div>
+     <p class="main-p">"Because of the Saviors Atonement, <br> His gospel provides <br> an invitation to keep <br> changing, growing, <br> and becoming more <br> pure."</p>
+  <footer>
+    <p>Russell M. Nelson</p>
+    <p>Presisent of the Church of Jesus Christ of Latter-Day Saints</p>
+  </footer>  
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

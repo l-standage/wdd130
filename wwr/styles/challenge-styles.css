@@ -1,0 +1,45 @@
+
+footer p {
+    font-size: 9px;
+    margin: 20px auto;
+    color: black;
+}
+img {
+    width: 100px;
+}
+body {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+h2 {
+    color: white;
+    font-size: 8px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif
+}
+.container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: black;
+    padding-top: 20;
+
+
+}
+body {
+    background-color: rgb(236, 150, 190);
+}
+h4 {
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+}
+
